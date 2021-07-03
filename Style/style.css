@@ -1,3 +1,51 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+section {
+    display: flex;
+}
+.intro {
+    width: 50%;
+    padding : 0 5%;
+}
+
+.name-color {
+    color: orange;
+}
+
+p {
+    word-spacing: 3px;
+    color: rgb(151, 147, 147);
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 3px;
+    border: 2px solid orange;
+    background-image: linear-gradient(orange,tomato);
+}
+
+.profile1 {
+    
+    background-image: url('../Images/top-banner.png');
+    background-repeat: no-repeat;
+}
+
+.profile2{
+    margin-top: 150px;
+    background-image: url('../Images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    
+   
 }
