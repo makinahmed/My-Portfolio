@@ -8,7 +8,10 @@ h1 {
     font-size: 50px;
     font-weight: 900;
 }
-section {
+h3 {
+    font-size: 30px;
+}
+.flexible-container {
     display: flex;
 }
 .intro {
@@ -48,4 +51,36 @@ a {
     background-position: right;
     
    
+}
+
+.experience {
+    background-image: url('../Images/exp-bg.png');
+    background-repeat: no-repeat;
+
+}
+
+.experience-item {
+ 
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px;
+    width: 40%;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+
+.fullstack {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+.fontend {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+
+footer p {
+    margin-top: 350px;
+    text-align: center;
 }
